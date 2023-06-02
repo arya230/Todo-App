@@ -50,11 +50,47 @@ body {
 .action-btn-cont>* {
     font-size: 2rem;
     color: #d1d8e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    
 }
 .toolbox-color-cont > *:hover, .action-btn-cont>*:hover {
     background-color: #485460;  
 }
 
 .modal-cont {
+    top: calc((100vh - 50vh)/2);
+    left: calc((100vw - 45vw)/2);
+    background-color: lightblue;
+    position: absolute;
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+}
+
+textarea {
+    width: 75%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 2rem;
+    background-color:#dfe4ea;
+}
+.priority-color-cont {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #4b4b4b;
     
+}
+.priority-color {
+    height: 10%;
+    width: 50%;
 }
