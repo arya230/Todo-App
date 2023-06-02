@@ -68,7 +68,7 @@ body {
     position: absolute;
     height: 50vh;
     width: 40vw;
-    display: flex;
+    display: none;
 }
 
 textarea {
@@ -93,4 +93,12 @@ textarea {
 .priority-color {
     height: 10%;
     width: 50%;
+}
+
+.active {
+    border: 5px solid red;
+}
+
+.main-cont {
+    display: flex;
 }
